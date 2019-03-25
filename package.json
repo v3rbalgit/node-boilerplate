@@ -1,0 +1,41 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "description": "A basic Materialize template with SCSS and TS",
+  "browser": "public/js/bundle.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v3rbalgit/node-boilerplate.git",
+    "branch": "bootstrap+jquery"
+  },
+  "keywords": [
+    "node",
+    "html",
+    "css",
+    "scss",
+    "sass",
+    "typescript",
+    "javascript",
+    "js",
+    "ts",
+    "boilerplate"
+  ],
+  "author": "Bryan Veer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/v3rbalgit/node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/v3rbalgit/node-boilerplate#readme",
+  "devDependencies": {
+    "rollup": "^1.7.3",
+    "rollup-plugin-commonjs": "^9.2.2",
+    "rollup-plugin-scss": "^1.0.1",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.3.4000"
+  }
+}
